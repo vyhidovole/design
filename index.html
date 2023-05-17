@@ -17,26 +17,27 @@
 <body>
   <header class="page-header">
     <div class="page-header__wrapper container">
-      <div class="page-header__logo">
+      <a target="_blank" class="page-header__logo" href="#">
         <img src="img/logo.svg" width="20" height="20" alt="Логотип Callium">
-      </div>
+      </a>
       <nav id="menu" class="site-nav site-nav--closed site-nav--no-js page-header__site-nav">
         <ul class="site-nav__list">
-          <li class="site-nav__item"><a href="#">Мебель</a></li>
-          <li class="site-nav__item"><a href="#">Освещение</a></li>
-          <li class="site-nav__item"><a href="#">Текстиль</a></li>
+          <li class="site-nav__item"><a target="_blank" href="#">Мебель</a></li>
+          <li class="site-nav__item"><a target="_blank" href="#">Освещение</a></li>
+          <li class="site-nav__item"><a target="_blank" href="#">Текстиль</a></li>
         </ul>
         <button class="site-nav__button" type="button" aria-label="Показать/Скрыть меню"></button>
       </nav>
       <ul class="user-nav page-header__user-nav">
         <li class="user-nav__item user-nav__item--burger">
-          <a class="burger-menu" href="#" aria-label="Бургер меню">х</a>
+          <a class="burger-menu" href="#" aria-label="Бургер-меню"><img src="img/icon-burger.svg" alt="icon-burger" </a>
         </li>
         <li class="user-nav__item user-nav__item--search">
-          <a href="#" aria-label="Поиск по сайту"><span class="visually-hidden">Поиск по сайту</span></a>
+          <a target="_blank" href="#" aria-label="Поиск по сайту"><span class="visually-hidden">Поиск по
+              сайту</span></a>
         </li>
         <li class="user-nav__item user-nav__item--cart">
-          <a href="#" aria-label="Корзина"><span class="visually-hidden">Корзина</span></a>
+          <a target="_blank" href="#" aria-label="Корзина"><span class="visually-hidden">Корзина</span></a>
         </li>
       </ul>
     </div>
@@ -56,7 +57,8 @@
                 <button class="product__button" type="button">Купить</button>
               </div>
               <div class="product__image">
-                <img src="img/main-chair-desktop.jpg" srcset="img/main-chair-desktop@2x.jpg 2x" width="532" height="751" alt="Кресло Антиква">
+                <img src="img/main-chair-desktop.jpg" srcset="img/main-chair-desktop@2x.jpg 2x" width="532" height="751"
+                  alt="Кресло Антиква">
               </div>
             </div>
           </div>
@@ -69,7 +71,8 @@
                 <button class="product__button" type="button">Купить</button>
               </div>
               <div class="product__image">
-                <img src="img/main-chair-desktop.jpg" srcset="img/main-chair-desktop@2x.jpg 2x" width="532" height="751" alt="Кресло Антиква">
+                <img src="img/main-chair-desktop.jpg" srcset="img/main-chair-desktop@2x.jpg 2x" width="532" height="751"
+                  alt="Кресло Антиква">
               </div>
             </div>
           </div>
@@ -82,7 +85,8 @@
                 <button class="product__button" type="button">Купить</button>
               </div>
               <div class="product__image">
-                <img src="img/main-chair-desktop.jpg" srcset="img/main-chair-desktop@2x.jpg 2x" width="532" height="751" alt="Кресло Антиква">
+                <img src="img/main-chair-desktop.jpg" srcset="img/main-chair-desktop@2x.jpg 2x" width="532" height="751"
+                  alt="Кресло Антиква">
               </div>
             </div>
           </div>
@@ -95,7 +99,8 @@
                 <button class="product__button" type="button">Купить</button>
               </div>
               <div class="product__image">
-                <img src="img/main-chair-desktop.jpg" srcset="img/main-chair-desktop@2x.jpg 2x" width="532" height="751" alt="Кресло Антиква">
+                <img src="img/main-chair-desktop.jpg" srcset="img/main-chair-desktop@2x.jpg" width="532" height="751"
+                  alt="Кресло Антиква">
               </div>
             </div>
           </div>
@@ -105,10 +110,46 @@
       </div>
     </section>
 
-  <script src="js/vendor/swiper.js"></script>
-  <script src="js/lib/slider-main.js"></script>
-  <script src="js/lib/script.js"></script>
-  
+    <section class="section-container">
+      <div class="block-1">
+        <h3 class="product__image_furniture" id="inf">НОВИНКИ</h3>
+        <div class="product__image_furniture">
+          <img src="img/chandelier-desktop.jpg" srcset="img/chandelier-desktop@2x.jpg" width="202" height="226"
+            alt="люстра">
+          <p>Люстра «Облако»</p>
+          <h3>$250</h3>
+        </div>
+      </div>
+      <div class="block-2">
+        <div class="product__image_furniture">
+          <img class="pt-20" src="img/chair-twilight-desktop.jpg" srcset="img/chair-twilight-desktop@2x.jpg" width="175"
+            height="169" alt="стул">
+          <p>Стул «Смеркается»</p>
+          <h3>$280</h3>
+        </div>
+        <div class="product__image_furniture">
+          <img src="img/table-cream-desktop.png" srcset="img/table-cream-desktop@2x.png" width="270" height="198"
+            alt="стол">
+          <p>Стол «Крем брюле»</p>
+          <h3>$320</h3>
+        </div>
+      </div>
+      <div class="block-3">
+      <div class="product__image_furniture">
+        <img class="pt-20" src="img/chair-white-desktop.jpg" srcset="img/chair-white-desktop@2x.jpg" width="490"
+          height="466" alt="стул">
+        <p>Стул офисный «Белый шоколад»</p>
+        <h3>$120</h3>
+      </div>
+    </div>
+
+
+    </section>
+
+    <script src="js/vendor/swiper.js"></script>
+    <script src="js/lib/slider-main.js"></script>
+    <script src="js/lib/script.js"></script>
+
 </body>
 
 </html>
