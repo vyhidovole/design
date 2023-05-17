@@ -907,3 +907,52 @@ img {
     display: block;
   }
 }
+/* main section */
+.section-container{
+  margin-top:120px;
+}
+.block-1,.block-2,.block-3{
+  display: inline-block;
+  text-align: center;
+  padding-left:90px;
+}
+
+.block-1,.block-2{
+  width: 270px;
+  height: 289px;
+  
+}
+.block-3{ 
+  width:570px;
+  height:614px;
+  
+} 
+.product__image_furniture:hover{
+  background: #FAECE9;
+  cursor: pointer;
+}
+.pt-20{
+  padding-top:20px;
+}
+#inf{
+  padding-bottom:120px;
+  font-size: 28px;
+  letter-spacing: 0.05em;
+  pointer-events: none;
+}
+#inf::after{
+content:"";
+width: 90px;
+height: 4px;
+position: absolute;
+left: 150px;
+display: block;
+background-color: #303032;
+
+}
+
+
+
+
+
+
