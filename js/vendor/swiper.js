@@ -89,6 +89,9 @@
     clearTimeout: function clearTimeout() {},
   } : window; // eslint-disable-line
 
+
+  
+
   /**
    * Dom7 2.1.3
    * Minimalistic JavaScript library for DOM manipulation, with a jQuery-compatible API
